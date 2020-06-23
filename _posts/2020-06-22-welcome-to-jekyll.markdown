@@ -1,29 +1,15 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
+title:  "Project ECO DevBlog #1"
 date:   2020-06-22 21:29:32 -0700
-categories: jekyll update
+categories: eco devblog
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
+Welcome to the Lavender Soft developer blog! We are just starting development on a new roguelike. The working title is ECO, but that will almost certainly change.
 
-Jekyll requires blog post files to be named according to the following format:
+Not much has happened so far. A few nights ago we had our initial design session. During that session we hammered out our theme, realistic suburban forest; our protagonist, various animals through the progression system; and our leveling mechanics, mainly centered around food.
 
-`YEAR-MONTH-DAY-title.MARKUP`
+Other than that, we have begun work on the engine, but mainly that has consisted of following the libtcod tutorial for Python and playing around with a few map generating algorithms in a simple sandbox.
 
-Where `YEAR` is a four-digit number, `MONTH` and `DAY` are both two-digit numbers, and `MARKUP` is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+By coincidence, we happen to be making this game in line with [/r/RoguelikeDev's 2020 tutorial jam](https://www.reddit.com/r/roguelikedev/comments/grccvt/roguelikedev_does_the_complete_roguelike_tutorial/), though our decision to make a game together was mainly driven by both of us buying Caves of Qud.
 
-Jekyll also offers powerful support for code snippets:
-
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
-
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
-
-[jekyll-docs]: https://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
+Before the week is out, we will have another blog update with some pictures of the engine in progress and some more details about our design.
